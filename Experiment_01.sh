@@ -1,5 +1,5 @@
 # 01 Display Help file for echo Command
-echo hello > help.txt
+man echo
 
 # 02 Display Calendar of the Current Year
 cal -y
@@ -8,9 +8,7 @@ cal -y
 cal Feb 2020
 
 # 04 Display Only the Day and Month of Current Date
-date "+%d %h"
-     OR
-date "+%a %h"
+date +"%A %B"
 
 # 05 Write command to activate scintific math functions in command line calculator
 bc -l
