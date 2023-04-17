@@ -22,13 +22,14 @@ echo i am from > aaa.txt
 echo "India"  | tee -a aaa.txt
 
 # 18 List the name whose start with a and ends with a 
-
+ls [aa]   # aa.txt file should be there
 
 # 19 Display the numbers of line, words and characters in a file named "gecbvn"
 wc -l -w -m gecbvn.txt
 
 # 20 Change the file permission of file bbb and change the derectory permission of directory demo1
-
+chmod +rwx bbb.txt  # bbb.txt file should be there
+chmod 644 demo1.txt  # demo1.txt file should be there 
 
 # 21 Display the data in the file in descending order 
 sort -r name.txt
